@@ -3,8 +3,8 @@ window.onload = function() {
 	var btn = document.querySelector( '.btn' );
 
 	var btnFront = btn.querySelector( '.btn-front' ),
-		btnYes = btn.querySelector( '.btn-back .提交' ),
-		btnNo = btn.querySelector( '.btn-back .重置' );
+		btnYes = btn.querySelector( '.btn-back .yes' ),
+		btnNo = btn.querySelector( '.btn-back .no' );
 
 	btnFront.addEventListener( 'click', function( event ) {
 		var mx = event.clientX - btn.offsetLeft,
